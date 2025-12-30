@@ -6,7 +6,7 @@
 - **Durability** = how likely data is lost  
   - S3 has *11 nines* durability (99.999999999%) for ALL storage classes  
   - Means very very rare to lose data (1 object lost every 10,000 years if storing 10M objects)  
-- **Availability** = how often data is accessible  
+- **Availability** = how often data is accessible   
   - Varies by storage class (lower availability = more downtime/errors)
 
 ---
