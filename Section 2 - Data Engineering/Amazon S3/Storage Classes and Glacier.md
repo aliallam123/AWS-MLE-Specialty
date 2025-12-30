@@ -13,22 +13,15 @@
 
 ### Storage Classes Overview
 
-| Class                      | Durability       | Availability      | Use case                                   | Notes                             |
-|----------------------------|------------------|-------------------|--------------------------------------------|----------------------------------|
-| **S3 Standard**             | 11 nines         | 99.99%            | Frequently accessed data                    | Default, low latency, high throughput, 2 concurrent AZ failures tolerated |
-| **S3 Standard-IA (Infrequent Access)** | 11 nines         | 99.9%             | Data accessed rarely but needs fast access | Lower cost than Standard, retrieval fees apply, use for backups/disaster recovery |
-| **S3 One Zone-IA**          | 11 nines within ONE AZ only | 99.5%             | Secondary backups or recreatable data       | Data lost if AZ destroyed, even lower cost |
-| **Glacier Instant Retrieval** | 11 nines       | N/A               | Archival but needs milliseconds retrieval  | Min storage 90 days, pay storage + retrieval cost |
-| **Glacier Flexible Retrieval** | 11 nines     | N/A               | Archival, retrieval in minutes to hours    | Retrieval options:  
-- Expedited: 1-5 mins  
-- Standard: 3-5 hrs  
-- Bulk: 5-12 hrs (free)  
-Min storage 90 days |
-| **Glacier Deep Archive**    | 11 nines         | N/A               | Long-term archival, cheapest               | Retrieval:  
-- Standard: ~12 hrs  
-- Bulk: ~48 hrs  
-Min storage 180 days |
-| **S3 Intelligent-Tiering**  | 11 nines         | ~Same as Standard  | Automatically moves objects between tiers based on access | Small monthly fee + auto-tiering fee, no retrieval fees; supports frequent, IA, archive instant, archive, deep archive tiers |
+| Class                         | Durability                 | Availability     | Use case                              | Notes                                                                                     |
+|-------------------------------|----------------------------|------------------|-------------------------------------|-------------------------------------------------------------------------------------------|
+| **S3 Standard**                | 11 nines (99.999999999%)   | 99.99%           | Frequently accessed data             | Default, low latency, high throughput, tolerates 2 concurrent AZ failures                 |
+| **S3 Standard-IA (Infrequent Access)** | 11 nines (99.999999999%)   | 99.9%            | Rarely accessed but rapid retrieval | Lower cost than Standard, retrieval fees apply, used for backups/disaster recovery         |
+| **S3 One Zone-IA**             | 11 nines (within ONE AZ)   | 99.5%            | Secondary backups or recreatable data | Data lost if AZ destroyed, lower cost                                                     |
+| **Glacier Instant Retrieval** | 11 nines (99.999999999%)   | N/A              | Archival with milliseconds retrieval | Min storage 90 days, pay storage + retrieval cost                                         |
+| **Glacier Flexible Retrieval**| 11 nines (99.999999999%)   | N/A              | Archival, retrieval minutes to hours| Retrieval options: Expedited (1-5 mins), Standard (3-5 hrs), Bulk (5-12 hrs, free), min 90 days storage |
+| **Glacier Deep Archive**       | 11 nines (99.999999999%)   | N/A              | Long-term archival, lowest cost     | Retrieval: Standard (~12 hrs), Bulk (~48 hrs), min storage 180 days                        |
+| **S3 Intelligent-Tiering**     | 11 nines (99.999999999%)   | ~Same as Standard| Auto moves objects between tiers    | Small monthly & auto-tiering fees, no retrieval fees, supports frequent, IA, archive tiers |
 
 ---
 
