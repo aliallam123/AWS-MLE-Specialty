@@ -56,3 +56,8 @@
   - ZFS workloads → FSx for OpenZFS  
 - Know deployment types for Lustre: scratch (temp, max perf) vs persistent (replicated, reliable)  
 - FSx integrates with on-prem and AWS via VPN/Direct Connect/private connections
+
+
+Exam Checklist: 
+
+You have to know how to tell the difference between the 4 different types of FSx
