@@ -5,7 +5,7 @@
 - Objects = files with a key (full path)  
   - keys look like folders but are not actual folders  
   - e.g. `my_file.txt` or `folder1/folder2/my_file.txt`
-
+ 
 - Max object size = 5 TB (if data >5TB split into multiple objects)  
 - Can add object tags (key:value) for classification, security, lifecycle  
 
