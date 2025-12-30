@@ -44,5 +44,5 @@
 - keys are "paths" but not real folders  
 - partition data based on query needs to improve Athena performance  
 - S3 storage is fully decoupled from compute services  
-- supports all common data formats for ML workloads  
+- supports all common data formats for ML workloads   
 - infinite, durable, and centralized data lake solution
