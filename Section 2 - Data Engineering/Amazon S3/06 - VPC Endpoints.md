@@ -28,4 +28,4 @@
 ### Key points  
 - Default S3 access goes over internet, unless you use VPC Endpoint Gateway  
 - Use VPC Endpoint & bucket policy to enforce private, secure access to S3  
-- Preferred for security & cost purposes when accessing S3 from within AWS VPC
+- Preferred for security & cost purposes when accessing S3 from within AWS VPC 
