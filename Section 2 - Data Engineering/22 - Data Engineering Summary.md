@@ -23,7 +23,7 @@ Here's a quick summary of all the services we've mentioned
 
 ---
 
-### Briefly mentioned, covered by Frank Kane:  
+### Briefly mentioned:  
 - **EMR:** Managed Hadoop Clusters  
 - **Quicksight:** Visualization Tool  
 - **Rekognition:** ML Service  
