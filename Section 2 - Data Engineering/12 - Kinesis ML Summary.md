@@ -1,0 +1,6 @@
+| Kinesis Service           | Primary Use Case                              | Data Type         | Key Features                                   | Typical ML Use Case                        |
+|--------------------------|----------------------------------------------|-------------------|------------------------------------------------|--------------------------------------------|
+| **Kinesis Data Streams** | Real-time, customized ML applications        | Streaming data    | Real-time, replayable, shards, provisioned/on-demand mode | Evaluate data streams with SageMaker     |
+| **Kinesis Data Firehose**| Near real-time ingestion & loading into S3   | Streaming data    | Fully managed, automatic scaling, no replay    | Batch training data storage for ML models|
+| **Kinesis Data Analytics**| Real-time ETL & simple ML via SQL            | Streaming data    | SQL-based streaming analytics, quick ML algorithms | Quick analysis/anomaly detection on streams |
+| **Kinesis Video Streams**| Real-time video ingestion & ML on video feeds| Video + related data | Long retention (hours to years), integrates with SageMaker and Rekognition | Real-time video ML (face detection, license plates, etc.) |
