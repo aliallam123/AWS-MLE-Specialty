@@ -10,22 +10,15 @@
 
 ### Key Python Libraries & Concepts  
 
+### Key Python Libraries & Concepts  
+
 | Library/Concept | Purpose & Notes                                  |
 |-----------------|------------------------------------------------|
-| **pandas**      | Main library for data manipulation & exploration  
-- Uses **DataFrames** (2D tables) and **Series** (1D array)  
-- Used to slice, filter, clean, handle outliers, extract subsets  
-| **NumPy**       | Lower-level library for arrays  
-- Interoperable with pandas  
-- Common format for ML algorithms input  
-| **Matplotlib**  | Basic visualization library  
-- Plots like box-and-whisker, histograms to understand distribution and outliers  
-| **Seaborn**     | Advanced visualization (built on Matplotlib)  
-- Prettier plots, heatmaps, pairplots, jointplots for deeper insights  
-| **scikit-learn**| Popular ML library  
-- Consistent interface for ML algorithms (classification, regression)  
-- Example: Random Forest classifier using `.fit(X, y)` & `.predict()`  
-
+| **pandas**      | Main library for data manipulation & exploration. Uses **DataFrames** (2D tables) and **Series** (1D arrays). Useful to slice, filter, clean data, handle outliers, extract subsets. |
+| **NumPy**       | Lower-level library for arrays. Interoperable with pandas. Common format for ML algorithm inputs. |
+| **Matplotlib**  | Basic visualization library. Creates plots like box-and-whisker and histograms to show distribution and outliers. |
+| **Seaborn**     | Advanced visualization built on Matplotlib. Produces prettier plots, heatmaps, pairplots, jointplots for deeper insight. |
+| **scikit-learn**| Popular ML library. Provides consistent interfaces for ML algorithms (classification, regression). Example: Random Forest classifier using `.fit(X, y)` and `.predict()`. |
 ---
 
 ### Important Concepts  
