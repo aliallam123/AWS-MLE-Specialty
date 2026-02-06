@@ -1,4 +1,3 @@
-```markdown
 # Activation Functions – Key Points for AWS ML Specialty Exam
 
 ---
@@ -99,4 +98,3 @@
 - Be familiar with the purpose and application context of the main activation functions listed.
 
 ---
-```
