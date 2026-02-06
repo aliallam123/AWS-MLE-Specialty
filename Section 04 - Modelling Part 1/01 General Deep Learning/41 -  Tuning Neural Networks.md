@@ -78,3 +78,5 @@ Key behavior (important and counterintuitive):
 - Both are **hyperparameters**:
   - Not learned by the model.
   - Must be tuned; they can be as important as network architecture and feature engineering.
+
+<img width="981" height="290" alt="image" src="https://github.com/user-attachments/assets/7906272c-ba8f-4442-84c8-ab45badbb9ef" />
